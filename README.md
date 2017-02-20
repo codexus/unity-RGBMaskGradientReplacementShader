@@ -2,6 +2,6 @@
 Simple RGB Mask Gradient Replacement Shader.
 
 Shader simply lerps between grayscale of given masked area from RGB mask
-runs pretty smooth on mobile devices. Comes with surface Lambert and Unlit versions.
+runs pretty smooth on mobile devices. Comes with surface Lambert with normal map support and Unlit versions.
 
-![alt tag](https://raw.githubusercontent.com/codexus/unity-RGBMaskGradientReplacementShader/master/preview.png
+![alt tag](https://raw.githubusercontent.com/codexus/unity-RGBMaskGradientReplacementShader/master/preview.png)
