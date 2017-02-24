@@ -54,8 +54,6 @@ namespace Codexus.ColorReplacement
 
         #endregion
 
-#if UNITY_EDITOR // just in case
-
         /// <summary>
         /// Called on every property change in editor
         /// </summary>
@@ -66,9 +64,7 @@ namespace Codexus.ColorReplacement
 
             SetTextureToShader(textures);
         }
-
-#endif
-
+        
         void SetTextureToShader(Texture2D[] textures)
         {
             for (int i = 0; i < textures.Length; i++)
